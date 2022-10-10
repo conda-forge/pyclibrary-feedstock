@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyclibrary-feed
 
 Summary: C binding automation
 
-Development: https://pyclibrary.readthedocs.io/en/latest/
+Documentation: https://pyclibrary.readthedocs.io/en/latest/
 
 Current build status
 ====================
