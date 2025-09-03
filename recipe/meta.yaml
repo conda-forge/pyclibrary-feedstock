@@ -1,5 +1,5 @@
 {% set name = "PyClibrary" %}
-{% set version = "0.2.2" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: 9902fffe361bb86f57ab62aa4195ec4dd382b63c5c6892be6d9784ec0a3575f7
+  sha256: 8a3eaa9ab728c11b077644275af4e05ca24ddcad491f47eb45b75db6be52c654
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
