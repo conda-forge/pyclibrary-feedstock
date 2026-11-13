@@ -1,5 +1,5 @@
 {% set name = "PyClibrary" %}
-{% set version = "0.2.2" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: 9902fffe361bb86f57ab62aa4195ec4dd382b63c5c6892be6d9784ec0a3575f7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name|lower }}-{{ version }}.tar.gz
+  sha256: 5c33fd723d79b5f77f442c26fa0fb50786813622f037515864313caad9705760
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
